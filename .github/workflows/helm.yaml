@@ -144,7 +144,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
       with:
-        ref: ${{ github.sha }}
+        ref: pre-deployment
         path: 'src'
     - name: Extract branch name
       id: branch
