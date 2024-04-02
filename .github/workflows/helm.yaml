@@ -146,6 +146,7 @@ jobs:
       with:
         ref: ${{ github.sha }}
         path: 'src'
+        fetch-depth: 0
     - name: Extract branch name
       id: branch
       shell: bash
