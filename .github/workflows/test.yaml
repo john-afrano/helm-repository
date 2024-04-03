@@ -15,3 +15,8 @@ jobs:
       with: 
         ref: ${{ github.sha }}
         path: src
+    - name: List files
+      shell: bash
+      working-directory: src
+      run: |
+        ls -lat app/
