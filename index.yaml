@@ -53,4 +53,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/john-afrano/helm-repository/production/helm/sample-app-ci-cd-0.1.27.tgz
     version: 0.1.27
-generated: "2024-04-05T03:17:09.47912324Z"
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-04-05T03:23:26.657979441Z"
+    description: A Helm chart for deploying the sample-app-ci-cd on Kubernetes.
+    digest: 5726ce49f387645c79a95c31253f4d1422438b9caa7227138541296af28b9801
+    home: https://github.com/john-afrano/sample-app-ci-cd
+    name: sample-app-ci-cd
+    sources:
+    - https://github.com/john-afrano/sample-app-ci-cd
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/john-afrano/helm-repository/production/helm/sample-app-ci-cd-0.1.3.tgz
+    version: 0.1.3
+generated: "2024-04-05T03:23:26.6573882Z"
